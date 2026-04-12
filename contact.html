@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./asset/hamburger.js"></script>
+    <link href="./asset/styles.css" rel="stylesheet" />
+    <title>Rinkaki</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <a class="logo" href="./index.html" alt="KF Letter Logo">kf</a>
+
+        <nav>
+          <!-- prettier-ignore -->
+          <div class="side-bar">
+            <span onclick=hideSidebar()>
+              <a href="#">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#495057"
+                alt="close icon"
+                >
+                <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+            </span>
+            <a class="logo" href="./index.html" alt="KF Letter Logo>kf</a>
+            <a href="#about">About</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+          <!-- prettier-ignore -->
+          <div class="nav-menu">
+            <a class="hide-on-mobile" href="#about">About</a>
+            <a class="hide-on-mobile" href="./projects.html">Projects</a>
+            <a class="hide-on-mobile" href="./contact.html">Contact</a>
+            <span class="menu-button" onclick=showSidebar()
+              ><a href="#" alt="Menu icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#495057"
+                  alt="Menu icon"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  />
+                </svg>
+              </a>
+            </span>
+          </div>
+        </nav>
+      </header>
+      <main class="body-container">
+        <section class="contact-section">
+          <div class="contact-container">
+            <h1>Contact</h1>
+            <div class="contact-items trans">
+              <a href="mailto:figueroa.khair@gmail.com" class="contact-box">
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="80"
+                    height="80"
+                    fill="#edf5fc"
+                    viewBox="0 0 256 256"
+                    alt="Email Icon"
+                  >
+                    <path
+                      d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"
+                    ></path>
+                  </svg>
+                  <h2>Email</h2>
+                  <p>khair.figueroa@gmail.com</p>
+                </div>
+              </a>
+              <a
+                href="https://gitlab.com/rinkaki12"
+                target="_blank"
+                class="contact-box"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    fill="#edf5fc"
+                    width="80"
+                    height="80"
+                    alt="Gitlab Icon"
+                  >
+                    <path
+                      d="M494.07 281.6l-25.18-78.08a11 11 0 00-.61-2.1l-50.5-156.94a20.08 20.08 0 00-19.17-13.82 19.77 19.77 0 00-18.95 13.94l-48.14 149.55h-152L131.34 44.59a19.76 19.76 0 00-18.86-13.94h-.11a20.15 20.15 0 00-19.12 14L42.7 201.73c0 .14-.11.26-.16.4l-25.63 79.48a29.15 29.15 0 0010.44 32.46l221.44 162.41a11.25 11.25 0 0013.38-.07l221.48-162.34a29.13 29.13 0 0010.42-32.47m-331-64.51l61.73 191.76L76.63 217.09m209.64 191.8l59.19-183.84 2.55-8h86.52L300.47 390.44M398.8 59.31l43.37 134.83h-86.82M324.16 217l-43 133.58-25.66 79.56L186.94 217M112.27 59.31l43.46 134.83H69M40.68 295.58a6.19 6.19 0 01-2.21-6.9l19-59 139.61 180.59m273.26-114.69L313.92 410.22l.52-.69L453.5 229.64l19 59a6.2 6.2 0 01-2.19 6.92"
+                    />
+                  </svg>
+                  <h2>Gitlab</h2>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/khair-figueroa-90abb315b/"
+                target="_blank"
+                class="contact-box"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="80"
+                    height="80"
+                    fill="#edf5fc"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
+                    ></path>
+                  </svg>
+                  <h2>LinkedIn</h2>
+                </div>
+              </a>
+
+              <a
+                href="https://www.facebook.com/figueroa.kerr/"
+                target="_blank"
+                class="contact-box"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="80"
+                    height="80"
+                    fill="#edf5fc"
+                    viewBox="0 0 256 256"
+                    alt="facebook Icon"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                    ></path>
+                  </svg>
+                  <h2>Facebook</h2>
+                </div>
+              </a>
+
+              <a
+                href="https://www.instagram.com/khair.23/"
+                target="_blank"
+                class="contact-box"
+              >
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="80"
+                    height="80"
+                    fill="#edf5fc"
+                    viewBox="0 0 256 256"
+                    alt="Instagram Icon"
+                  >
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                    ></path>
+                  </svg>
+                  <h2>Instagram</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
