@@ -64,6 +64,13 @@ hr {
 
 .menu-button {
   display: none;
+  background-color: none;
+  border: none;
+}
+
+.close-button {
+  background-color: none;
+  border: none;
 }
 
 .main-header {
