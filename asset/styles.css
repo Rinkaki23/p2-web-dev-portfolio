@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   padding: 0;
@@ -57,13 +57,13 @@ hr {
 
 .menu-button {
   display: none;
-  background-color: none;
   border: none;
+  background: none;
 }
 
 .close-button {
-  background-color: none;
   border: none;
+  background: none;
 }
 
 .main-header {
@@ -198,7 +198,7 @@ hr {
 }
 
 .about-design::after {
-  content: "Me";
+  content: 'Me';
   font-size: 30px;
   color: #edf5fc;
   background-color: #1864ab;
@@ -361,6 +361,8 @@ hr {
 
 .project-img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
 .project-icon {
